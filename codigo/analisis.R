@@ -4,7 +4,7 @@
 
 library(stargazer);library(tidyverse);library(readxl);library(car);library(dplyr)
 library(lmtest);library(sandwich);library(tables); library(corrplot)
-base<-read_excel("../Econometria/base_limpia.xlsx")
+base<-read_excel("../datos/base_limpia.xlsx")
 
 # **********************************************************************
 #Estadísticas descriptivas
