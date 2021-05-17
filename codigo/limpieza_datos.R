@@ -8,15 +8,12 @@
 library(xlsx)
 library(dplyr)
 library(readxl)
-
-# Direcci?n en la que quiere guardarse el archivo
-setwd("D:/Windows/Desktop")
+library(rJava)
 
 # Base de datos se encuentra en el Repositorio
-url <- "https://github.com/Superpapocho/Econometria/blob/main/fake_news_project.xlsx?raw=true"
-destfile <- "fake_news_project.xlsx"
-curl::curl_download(url, destfile)
-data_project <- read_excel(destfile)
+#url <- "https://github.com/Catalinad18/Econometria1/blob/main/datos/fake_news_project.xlsx"
+#curl::curl_download(url, destfile)
+data_project <- read_excel("../datos/fake_news_project.xlsx")
 
 # Se eliminan filas innecesarias
 data_project=data_project[-1,]
@@ -137,7 +134,7 @@ data_project=data_project[,-c(15:30)]
 str(data_project)
 
 # Se escribe un nuevo archivo
-write.xlsx(data_project, file="base_limpia.xlsx", sheetName = "Base", append = TRUE)
+write.xlsx(data_project, file="../datos/base_limpia.xlsx", sheetName = "Base", append = TRUE)
 
 
 
