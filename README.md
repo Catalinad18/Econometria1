@@ -7,4 +7,4 @@ En este vídeo se encuentra un resumen de la investigación realizada: https://w
 
 Realizado por:
 -
-Mariana Sánchez, Catalina Durán, Carlos Holguín, Juan Andrés Russy, Carlos Bermúdez
+Mariana Sánchez, Catalina Durán, Carlos Holguín, Juan Andrés Russy, Carlos Bermúdez y Sebatián Lima
